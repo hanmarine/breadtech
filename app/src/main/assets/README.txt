@@ -1,0 +1,1 @@
+This is where I put my PyTorch Lite (.ptl) file for the AI model and its labels, but I would rather not put them here for privacy reasons.

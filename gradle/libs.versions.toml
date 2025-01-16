@@ -1,0 +1,35 @@
+[versions]
+agp = "8.7.3"
+cameraCamera2 = "1.4.1"
+gradle = "7.5.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+pytorch_android_torchvision_lite = "2.5.2"
+pytorch_android_lite = "2.5.2"
+
+[libraries]
+androidx-camera-core = { module = "androidx.camera:camera-core", version.ref = "cameraCamera2" }
+androidx-camera-extensions = { module = "androidx.camera:camera-extensions", version.ref = "cameraCamera2" }
+androidx-camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraCamera2" }
+androidx-camera-video = { module = "androidx.camera:camera-video", version.ref = "cameraCamera2" }
+androidx-camera-view = { module = "androidx.camera:camera-view", version.ref = "cameraCamera2" }
+camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "cameraCamera2" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+pytorch_android_lite = { module = "org.pytorch:pytorch_android_lite", version.ref = "pytorch_android_lite" }
+pytorch_android_torchvision_lite = { module = "org.pytorch:pytorch_android_torchvision_lite", version.ref = "pytorch_android_torchvision_lite" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
